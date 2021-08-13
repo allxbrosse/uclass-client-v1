@@ -1,0 +1,18 @@
+// variables
+@import "./variables";
+
+// bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// common
+@import "./common";
+
+// text
+@import "./text/title.scss";
+
+// sections
+@import "./sections/header.scss";
+@import "./sections/intro.scss";
+@import "./sections/about.scss";
+
+// overrides

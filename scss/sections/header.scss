@@ -1,0 +1,18 @@
+.main-header {
+  
+  position: relative;
+  z-index: 1;
+
+  &__logo {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    img {
+      width: 87px;
+    }
+  }
+  &__profile {
+    display: flex;
+    flex: 1;
+  }
+}
