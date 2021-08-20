@@ -1,0 +1,14 @@
+.block {
+    border-radius: 15px;
+    background-color: #eeeeee;
+    &_shadow {
+        box-shadow: #102a433b 50px 15px 120px;
+    }
+    &_grey {
+        background-color: grey;
+        color: white;
+    }
+    &__text {
+        padding: $space;
+    }
+}

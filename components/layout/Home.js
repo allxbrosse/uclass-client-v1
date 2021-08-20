@@ -1,12 +1,12 @@
 import Header from "../section/Header"
 
-const MainLayout = ({ children }) => {
+const HomeLayout = ({ children }) => {
     return (
-        <div className="">
+        <div className="dark min-h-100vh">
             <Header />
             {children}
         </div>
     )
 }
 
-export default MainLayout;
+export default HomeLayout;

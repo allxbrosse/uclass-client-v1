@@ -1,8 +1,8 @@
-import MainLayout from "../components/layout/Main";
+import HomeLayout from "../components/layout/Home";
 
 const IndexPage = () => {
     return (
-        <MainLayout>
+        <HomeLayout>
             <div className="parallax-mirror">
                 <video className="parallax-slider" autoPlay loop muted>
                     <source src="/video/video.mp4" type="video/mp4" />
@@ -92,7 +92,7 @@ const IndexPage = () => {
                     </div>
                 </div>
             </div>
-        </MainLayout>
+        </HomeLayout>
     )
 }
 
